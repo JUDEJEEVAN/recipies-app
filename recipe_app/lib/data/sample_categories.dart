@@ -9,21 +9,40 @@ final List<FoodCategory> foodCategories = [
     color: Colors.amber.shade400,
     availableRecipe: [
       Food(
-          name: 'Noodles',
-          procedure: ['Boil water', 'Boil noodles', 'Add sauce', 'Serve hot']),
-      Food(name: 'Ramen', procedure: [
-        'Boil water',
-        'Cook ramen noodles',
-        'Add broth and toppings'
-      ]),
-      Food(name: 'Pad Thai', procedure: [
-        'Soak rice noodles',
-        'Stir-fry with vegetables',
-        'Add sauce'
-      ]),
+        name: 'Noodles',
+        procedure: ['Boil water', 'Boil noodles', 'Add sauce', 'Serve hot'],
+        imageUrl:
+            'https://www.datocms-assets.com/34887/1636118293-food-slider-placeholder.png?crop=focalpoint&fit=crop&h=460&q=60&w=640',
+        description:
+            'Noodles are a staple food in many cultures made from unleavened dough that is stretched, extruded, or rolled flat and cut into one of a variety of shapes. A noodle is a piece of pasta, especially a ribbon-shaped one.',
+      ),
+      Food(
+        name: 'Ramen',
+        procedure: [
+          'Boil water',
+          'Cook ramen noodles',
+          'Add broth and toppings'
+        ],
+        imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMIepz2ae9Apf9z8L0LpzrLNFT0Wcv5_nHiQ&s',
+        description:
+            'Ramen is a Japanese noodle soup. It consists of Chinese wheat noodles served in a meat- or fish-based broth, often flavored with soy sauce or miso, and uses toppings such as sliced pork, nori, menma, and scallions. Nearly every region in Japan has its own variation of ramen, such as the tonkotsu (pork bone broth) ramen of Kyushu and the miso ramen of Hokkaido.',
+      ),
+      Food(
+        name: 'Pad Thai',
+        procedure: [
+          'Soak rice noodles',
+          'Stir-fry with vegetables',
+          'Add sauce'
+        ],
+        description:
+            'Pad Thai is a stir-fried rice noodle dish commonly served as a street food and at most restaurants in Thailand as part of the country\'s cuisine. It is typically made with rice noodles, chicken, beef or tofu, peanuts, a scrambled egg, and bean sprouts, among other vegetables. The ingredients are sautéed together in a wok and tossed in a delicious pad thai sauce made of tamarind paste, fish sauce, sugar, and vinegar.',
+      ),
       Food(
           name: 'Hakka Noodles',
-          procedure: ['Boil noodles', 'Stir-fry with veggies and sauce']),
+          procedure: ['Boil noodles', 'Stir-fry with veggies and sauce'],
+          description:
+              'Hakka noodles is a popular Indo-Chinese dish made with noodles, vegetables, and Chinese sauces. It is a popular street food in India and is often served in restaurants and fast-food chains. The noodles are stir-fried with vegetables like bell peppers, carrots, cabbage, and spring onions, along with sauces like soy sauce, chili sauce, and vinegar. It is a quick and easy dish to make and is perfect for lunch or dinner.'),
       Food(name: 'Sweet and Sour Chicken', procedure: [
         'Fry chicken',
         'Prepare sweet and sour sauce',
