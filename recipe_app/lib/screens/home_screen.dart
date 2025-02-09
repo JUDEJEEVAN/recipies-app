@@ -4,6 +4,8 @@ import 'package:recipe_app/components/category_grid_item.dart';
 import 'package:recipe_app/components/custom_grid.dart';
 import 'package:recipe_app/data/sample_categories.dart';
 import 'package:recipe_app/routes/router_functions.dart';
+import 'package:gap/gap.dart';
+import 'package:recipe_app/models/food_category.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

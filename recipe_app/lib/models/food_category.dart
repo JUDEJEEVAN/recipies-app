@@ -5,6 +5,7 @@ import 'package:recipe_app/models/food.dart';
 
 class FoodCategory {
   final String title;
+
   final String id;
 
   /// color for the widget in the home screen
